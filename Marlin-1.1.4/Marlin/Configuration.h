@@ -377,7 +377,7 @@
 
 #if ENABLED(PIDTEMPBED)
 
-  //#define PID_BED_DEBUG // Sends debug data to the serial port.
+  #define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
@@ -400,8 +400,8 @@
  */
  // Rebel II - JS31 config 11.89V input 29/10/2018
 #define  DEFAULT_bedKp 1500
-#define  DEFAULT_bedKi 22.74
-#define  DEFAULT_bedKd 1037
+#define  DEFAULT_bedKi 20
+#define  DEFAULT_bedKd 400
   
 #endif // PIDTEMPBED
 
