@@ -398,10 +398,10 @@
   #define  DEFAULT_bedKi 9.98
   #define  DEFAULT_bedKd 1037.82
  */
- // Rebel II - JS31 config 11.89V input 29/10/2018
-#define  DEFAULT_bedKp 1500
-#define  DEFAULT_bedKi 20
-#define  DEFAULT_bedKd 400
+ // Rebel II - JS31 config manual TUNE 30/10/2018
+#define  DEFAULT_bedKp 500
+#define  DEFAULT_bedKi 60
+#define  DEFAULT_bedKd 100
   
 #endif // PIDTEMPBED
 
