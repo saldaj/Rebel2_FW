@@ -35,7 +35,7 @@
   /**
    * Marlin release version identifier
    */
-  #define SHORT_BUILD_VERSION "1.1.4_JS31_019"
+  #define SHORT_BUILD_VERSION "1.1.4_JS31_020"
 
   /**
    * Verbose version identifier which should contain a reference to the location

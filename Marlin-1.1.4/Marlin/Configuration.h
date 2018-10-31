@@ -379,11 +379,16 @@
 
   #define PID_BED_DEBUG // Sends debug data to the serial port.
 
+   // Rebel II - JS31 config manual TUNE 30/10/2018
+  #define  DEFAULT_bedKp 800
+  #define  DEFAULT_bedKi 100
+  #define  DEFAULT_bedKd 100
+    
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
-//  #define  DEFAULT_bedKp 10.00
-//  #define  DEFAULT_bedKi .023
-//  #define  DEFAULT_bedKd 305.4
+  //#define  DEFAULT_bedKp 10.00
+  //#define  DEFAULT_bedKi .023
+  //#define  DEFAULT_bedKd 305.4
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from pidautotune
@@ -394,15 +399,11 @@
   // FIND YOUR OWN: "M303 E-1 C8 S90" to run autotune on the bed at 90 degreesC for 8 cycles.
 
 // Rebel II - JS31 config
-/*  #define  DEFAULT_bedKp 203.51
+/*#define  DEFAULT_bedKp 203.51
   #define  DEFAULT_bedKi 9.98
   #define  DEFAULT_bedKd 1037.82
  */
- // Rebel II - JS31 config manual TUNE 30/10/2018
-#define  DEFAULT_bedKp 500
-#define  DEFAULT_bedKi 60
-#define  DEFAULT_bedKd 100
-  
+
 #endif // PIDTEMPBED
 
 // @section extruder
